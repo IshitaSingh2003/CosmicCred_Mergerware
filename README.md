@@ -1,4 +1,4 @@
-Just trying out an hiring assignment by MergerWare!
+Implementing an hiring assignment by MergerWare!
 Grateful for the opportunity that let me dive into new tech stack.
 
 # CosmicCred 🌠
