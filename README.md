@@ -31,10 +31,5 @@ We welcome contributions from the community to help make CosmicCred even better!
 
 Let's together make CosmicCred the ultimate destination for financial interactions in the digital cosmos! 🌟
 
-## License 📝
-
-This project is licensed under the [MIT License](LICENSE) - feel free to use, modify, and distribute it as per the terms of the license.
-
----
 
 Ready to explore the universe of CosmicCred? Blast off into a world of lending and borrowing like never before! 🚀🌌
