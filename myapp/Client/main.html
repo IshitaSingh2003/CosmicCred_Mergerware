@@ -1,0 +1,46 @@
+<head>
+  <title>My Meteor App</title>
+  <link rel="stylesheet" type="text/css" href="/ green-theme.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">MyApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {{#if currentUser}}
+          {{#if isInRole 'admin'}}
+            <li class="nav-item">
+              <a class="nav-link" href="/admin">Admin</a>
+            </li>
+          {{/if}}
+          {{#if isInRole 'borrower'}}
+            <li class="nav-item">
+              <a class="nav-link" href="/borrower">Borrower</a>
+            </li>
+          {{/if}}
+          {{#if isInRole 'lender'}}
+            <li class="nav-item">
+              <a class="nav-link" href="/lender">Lender</a>
+            </li>
+          {{/if}}
+        {{/if}}
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    {{> yield}}
+  </div>
+</body>
+
+<template name="register">
+  <!-- Registration form -->
+</template>
+
+<template name="login">
+  <!-- Login form -->
+</template>
